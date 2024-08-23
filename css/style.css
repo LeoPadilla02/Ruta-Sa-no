@@ -1,0 +1,1660 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    background: #2d6a6d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header {
+    height: 700px;
+    align-items: center;
+    background: url(/imagenes/Banner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Inicio nav */
+.img {
+    max-width: 100%;
+}
+
+.logo {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+header {
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(65, 124, 120, .1);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar ul li {
+    padding: 0 20px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 50px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+/* fin Nav */
+
+/* Content */
+.content {
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1440px;
+
+}
+
+.contenido-los2lados {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-ladoizquierdo {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.content .nombre-carrera {
+    font-size: 7rem;
+    font-family: "Rubik Wet Paint", system-ui, sans-serif;
+    padding: 0 auto;
+}
+
+.content .letras-blancas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #fff;
+    font-size: 45px;
+    padding: 0 auto;
+    margin-top: 150px;
+}
+
+.boton-inicio {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(118, 171, 174);
+    background: #000;
+    border-radius: 20px;
+    padding: 12px 90px;
+    display: inline-block;
+    border: 2px solid rgb(118, 171, 174);
+}
+
+.boton-inicio:hover {
+    color: #000;
+    font-weight: 500;
+    background-color: rgb(118, 171, 174);
+    border: 2px solid #000;
+}
+
+#parrafo-derecho {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+    text-align: center center;
+    padding-bottom: 150px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 300px;
+}
+
+.boton-inicio {
+    margin-top: 140px;
+    font-size: 1.5rem;
+}
+
+/* Inicio section-1 sobre nosotros */
+
+.seccion-1 {
+    display: flex;
+    justify-content: space-between;
+    background: -webkit-linear-gradient(0deg, #000000,#000000,#7ab9b3);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(0deg, #000000,#000000,#7ab9b3);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             ;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 12%;
+}
+
+.contenido-nosotros {
+    line-height: 1.2;
+}
+.contenido-nosotros{
+    max-width: 30rem;
+}
+.seccion-1 h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.seccion-1 p {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Fin section-1 sobre nosotros */
+
+/* Inicio patrocinadores */
+.seccion-patrocinadores {
+    background: rgb(49, 54, 63);
+    background-position: center center;
+    max-width: 100%;
+    text-align: center;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-patrocinadores h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.logos-tarrazu {
+    text-align: center;
+}
+
+.logos-tarrazu .logos-1 {
+    padding: 40px;
+}
+
+.logo-bikes {
+    text-align: center;
+    margin: 90px 0;
+    padding-top: 15px;
+}
+
+.logo-toyota {
+    text-align: center;
+    margin: 40px;
+}
+
+.logo-toyota .logo-3 {
+    align-items: center;
+    margin: 34px;
+}
+
+.seccion-patrocinadores .logo-toyota #sardimar-1 {
+    padding-bottom: 70px;
+}
+
+/* Fin seccion de patrocinadores */
+/* Inicio seccion Rutas */
+
+.rutas {
+    max-width: 1440px;
+    height: 1000px;
+    background: -webkit-linear-gradient(180deg, #314748, #7ab9b3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(180deg, #314748, #7ab9b3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rutas .contenido-rutas {
+    padding-top: 25px;
+}
+
+#rutas1 {
+    scroll-behavior: smooth;
+}
+
+.rutas .contenido-rutas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-ruta {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.subtitulo-ruta {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    color: #000;
+    padding: 0 auto;
+}
+
+.img_ruta_1 {
+    height: 600px;
+    width: 662px;
+}
+
+.btn-inscrip {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(118, 171, 174);
+    background: #000;
+    border-radius: 20px;
+    padding: 8px 75px;
+    display: inline-block;
+    border: 2px solid rgb(118, 171, 174);
+    margin-top: 50px;
+
+}
+
+.btn-inscrip:hover {
+    color: #000;
+    font-weight: 500;
+    background-color: rgb(118, 171, 174);
+    border: 2px solid #000;
+}
+
+#ruta2-individual .subtitulo-ruta {
+    margin-bottom: 50px;
+}
+
+/* Camisas */
+.contenido-camisetas {
+    background: -webkit-linear-gradient(90deg, #76abae, #314748);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #76abae, #314748);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    max-width: 1440px;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-camisetas .camisetas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.camisetas .camisetas-1 {
+    padding: 0 auto;
+    margin-left: 250px;
+}
+
+.contenido-camisetas .parrafo-inscripcion {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* *******Premios******* */
+
+.premios-1 {
+    background: url(/imagenes/premioscatego.png)no-repeat;
+    background-position: center center;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-premio {
+    font-family: "Oswald", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 25px;
+}
+
+.premios-1 h3 {
+    color: #7ab9b3;
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.premios-1 h4 {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+}
+
+.premios-segundolugar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Galería */
+.contenido-galeria {
+    background: -webkit-linear-gradient(0deg, #1e272b, #658491);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(0deg, #1e272b, #658491);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    margin: 0 auto;
+    max-width: 1440px;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-galeria .contenido-imgs {
+    display: flex;
+    justify-content: space-between;
+    padding: 66px;
+}
+
+.contenido-galeria h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* ********Eventos******** */
+.container-eventos {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(/imagenes/Eventos/fondo\ eventos.png);
+    padding: 50px;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    padding: 100px;
+}
+
+.container-eventos h2{
+    color: #fff;
+    height: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+}
+.h2-eventos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 0;
+    text-align: center;
+}
+
+#todas-cards{
+    display: flex;
+    align-content: center;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #000000;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+    font-family: "Oswald", sans-serif
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a {
+    color: #f3f3f3;
+}
+
+.card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif
+}
+
+#color-trueno {
+    background: linear-gradient(263deg, rgba(255, 255, 255, 0.80) 8.83%, rgba(122, 185, 179, 0.80) 88.77%);
+}
+
+#color-rihanna {
+    background: linear-gradient(263deg, rgba(255, 255, 255, 0.80) 8.83%, rgba(248, 204, 137, 0.80) 88.77%);
+}
+
+#color-martin {
+    background: linear-gradient(263deg, rgba(255, 255, 255, 0.80) 8.83%, rgba(50, 49, 54, 0.80) 88.77%);
+}
+
+.card .back p {
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/* ********Eventos************ */
+
+/* *******Formulario****** */
+
+.formulario {
+    background: url(/imagenes/imgfondo\ inscripcion.png) no-repeat;
+    margin: 0 auto;
+    max-width: 1440px;
+    align-items: center;
+}
+
+.formulario h2 {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.formulario .barras-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .btn-form {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 8px 75px;
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 300px;
+}
+
+.formulario .btn-form:hover {
+    color: #ffffff;
+    font-weight: 500;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+}
+
+.campo {
+    margin-top: 10px;
+    padding: 10px 15px;
+    margin-left: 100px;
+}
+
+/* *****Footer***** */
+
+footer {
+    margin: 0 auto;
+    max-width: 1440px;
+    background: url(/imagenes/fonfo-footer.png) no-repeat;
+    height: 200px;
+}
+
+.content-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.content-footer .logo-footer {
+    height: 100px;
+}
+
+.content-footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+}
+
+.content-footer ul li:hover {
+    text-align: center center;
+    text-decoration: underline;
+}
+
+.social-icons {
+    font-size: 40px;
+}
+
+.social-icon {
+    color: #fff;
+}
+
+#twitter-icon {
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* *********************Media Tablet***************************** */
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 20px;
+        position: relative;
+    }
+
+    .menu label {
+        display: initial;
+        padding-top: 30px;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: -webkit-linear-gradient(180deg, #314748, #7ab9b3);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(180deg, #314748, #7ab9b3);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0 auto;
+        display: none;
+    }
+
+    .menu .navbar ul {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #1f0c42;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .menu-icono {
+        margin-right: 20px;
+    }
+
+    #parrafo-derecho {
+        margin-top: 250px;
+    }
+
+    /* Content */
+    .content .nombre-carrera {
+        font-size: 3rem;
+        font-family: "Rubik Wet Paint", system-ui, sans-serif;
+        padding: 0 auto;
+    }
+
+    .content .letras-blancas {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color: #fff;
+        font-size: 25px;
+        padding: 0 auto;
+        margin-top: 150px;
+    }
+
+    #parrafo-derecho {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 1.5rem;
+        margin-bottom: 60px;
+        text-align: center center;
+        padding-bottom: 150px;
+        float: right;
+        margin-right: 20px;
+        margin-top: 300px;
+    }
+
+    .boton-inicio {
+        margin-top: 140px;
+        font-size: 1rem;
+    }
+    
+
+    /* Media Sobre Nosotros */
+    .seccion-1 {
+        height: 600px;
+    }
+
+    .seccion-1 h1{
+        margin-bottom: 5px;
+    }
+
+    .seccion-1 p {
+        font-family: "Oswald", sans-serif;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .seccion-1 img{
+        width: 400px;
+        height: 400px;
+        margin-left: 10px;
+    }
+
+    /******* seccion-patrocinadores******* */
+    .logos-tarrazu img {
+        width: 150px;
+    }
+
+    .logo-solo img {
+        width: 150px;
+    }
+
+    .logo-final img {
+        width: 100px;
+    }
+
+    .logos-tarrazu #contenido-tarrazu {
+        width: 100px;
+    }
+
+    .seccion-patrocinadores h2 {
+        font-size: 2rem;
+    }
+
+    /* final patrocinadores */
+    /* inicio Rutas*/
+    .rutas {
+        width: 991px;
+        height: 700px;
+        background: -webkit-linear-gradient(180deg, #314748, #7ab9b3);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(180deg, #314748, #7ab9b3);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0 auto;
+        padding: 50px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rutas .contenido-rutas {
+        padding-top: 25px;
+    }
+
+    .titulo-ruta {
+        font-size: 2.5rem;
+    }
+
+    .subtitulo-ruta {
+        font-size: 2rem;
+    }
+
+    .ruta-1 #ruta-numero1 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .ruta-1 #ruta-numero1abajo {
+        width: 400px;
+        height: 70px
+    }
+
+    .ruta-2 .img_ruta_2 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .ruta-2 #ruta-numero2abajo {
+        width: 400px;
+        height: 70px;
+    }
+
+    /* camisas */
+    .contenido-camisetas img {
+        width: 400px;
+    }
+
+    .contenido-camisetas p {
+        font-size: 1.5rem;
+    }
+
+    /* Eventos*/
+
+    .container-eventos{
+        padding: 25px;
+    }
+
+    .container-eventos h2{
+        color: #fff;
+        height: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        font-family: "Oswald", sans-serif;
+    }
+
+    .imagen-trueno p {
+        font-size: 1rem;
+    }
+
+    .contenido-eventotrueno h3 {
+        font-size: 1.5rem;
+    }
+
+    .contenido-eventotrueno h4 {
+        font-size: 1.5rem;
+        color: #fff;
+        margin-left: 50px;
+    }
+
+    .contenido-eventotrueno .fecha-evento {
+        font-family: "Oswald", sans-serif;
+        font-size: 1.5rem;
+        color: #9A9696;
+        font-weight: 700;
+    }
+
+    .imagen-trueno img {
+        width: 200px;
+    }
+
+    .contenido-eventotrueno .nombre-trueno {
+        font-size: 2rem;
+        margin-right: 500px;
+    }
+
+}
+
+/* ***************************************Media Movil******************************* */
+@media(max-width:365px) {
+.container .menu{
+    padding: 5px;
+}
+
+    .container #menu-hamburguesa{
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .container .menu{
+    display: flex;
+    justify-content: space-between;
+    }  
+
+    .content {
+        align-items: center;
+        text-align: center;
+        align-items: column;
+        width: 100vw;
+}
+
+    .contenido-ladoizquierdo{
+        margin-top: 100px;
+    }
+
+    .content .nombre-carrera {
+        font-size: 2rem;
+        margin-top: 400px;
+    }
+
+    .content .letras-blancas {
+        font-size: 1.3rem;
+    }
+
+    .boton-inicio {
+        margin-left: 0 auto;
+        margin-top: 190px;
+        font-size: 15px;
+        padding: 8px 35px;
+    }
+
+    #parrafo-derecho {
+        display: none;
+    }
+
+    /* *******Media Sobre Nossotros******** */
+    .seccion-1 img {
+        display: none;
+    }
+
+    .seccion-1 p {
+        font-size: 1.1rem;
+    }
+
+    .parrafo-letras{
+        display: none;
+    }
+
+    /******* seccion-patrocinadores******* */
+    .seccion-patrocinadores {
+        padding: 25px;
+    }
+
+    .seccion-patrocinadores h2 {
+        font-size: 1rem;
+    }
+
+    .logo-bikes {
+        margin: 10px 5px;
+    }
+
+    .logo-toyota {
+        margin: 0;
+    }
+
+    .logo-final #tama-sardina {
+        margin: 10px 5px;
+    }
+
+    .logos-tarrazu #contenido-tarrazu {
+        width: 60px;
+    }
+
+    .logos-tarrazu #contenido-coopesantos {
+        width: 70px;
+    }
+
+    .logos-tarrazu #contenido-bcr {
+        width: 70px;
+    }
+
+    .logo-solo #contenido-station {
+        width: 60px;
+    }
+
+    .logo-final #contenido-toyota {
+        width: 60px;
+    }
+
+    .logo-final #contenido-sardina {
+        width: 60px;
+    }
+
+    .logo-final #contenido-power {
+        width: 60px;
+    }
+
+    /* final patrocinadores */
+    /* inicio Rutas*/
+    .rutas {
+        width: 364px;
+        height: 700px;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .rutas h2 {
+        font-size: 2rem;
+    }
+
+    .contenido-rutas h3 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .btn-inscrip {
+        font-size: 10px;
+        background: #000;
+        border-radius: 10px;
+        padding: 8px 55px;
+        border: 2px solid rgb(118, 171, 174);
+        margin: 30px;
+    }
+
+    .btn-inscrip:hover {
+        color: #000;
+        font-weight: 500;
+        background-color: rgb(118, 171, 174);
+        border: 2px solid #000;
+    }
+
+    .rutas .contenido-rutas {
+        padding-top: 25px;
+        flex-direction: column;
+    }
+
+    .titulo-ruta {
+        font-size: 2rem;
+    }
+
+    .subtitulo-ruta {
+        font-size: 2rem;
+    }
+
+    .ruta-1 #ruta-numero1 {
+        width: 200px;
+        height: 100px;
+    }
+
+    .ruta-1 #ruta-numero1abajo {
+        width: 200px;
+        height: 30px;
+    }
+
+    .ruta-2 .img_ruta_2 {
+        width: 200px;
+        height: 100px;
+    }
+
+    .ruta-2 #ruta-numero2abajo {
+        width: 200px;
+        height: 30px;
+    }
+
+    /* camisas */
+    .contenido-camisetas {
+        background: -webkit-linear-gradient(90deg, #76abae, #314748);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(90deg, #76abae, #314748);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        max-width: 364px;
+        padding: 20px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contenido-camisetas .camisetas {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenido-camisetas img {
+        width: 200px;
+    }
+
+    .contenido-camisetas p {
+        font-size: 1rem;
+    }
+
+    /* ***********Premios********* */
+    .titulo-premio {
+        font-family: "Oswald", sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .premios-1 h3 {
+        font-size: 1.7rem;
+    }
+
+    .premios-1 h4 {
+        font-size: 1rem;
+    }
+
+    /* ********Galería******* */
+    .contenido-galeria {
+        max-width: 364px;
+        text-align: center;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenido-galeria .contenido-imgs {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .contenido-galeria h2 {
+        font-size: 1.5rem;
+    }
+
+    .contenido-galeria img {
+        width: 200px;
+    }
+
+    .img-1 img {
+        width: 100px;
+    }
+
+    .img-2 img {
+        width: 100px;
+    }
+
+    .img-3 img {
+        width: 100px;
+    }
+
+    /* Eventos */
+    .container-eventos .card {
+        height: 300px;
+    }
+
+    .container-eventos h2{
+        display: none;
+    }
+
+    /* Formulario */
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 365px;
+        padding: 5px;
+    }
+
+    .formulario .barras-formulario {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    input {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .formulario h2 {
+        text-align: initial;
+    }
+
+    .formulario .btn-form {
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 8px 25px;
+        display: flex;
+        justify-content: center;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 0 auto;
+        left: 10%;
+        margin-top: 10px;
+    }
+
+    #btn-enviar .btn-form {
+        padding: 5px 5px;
+    }
+
+    .formulario .btn-form:hover {
+        color: #ffffff;
+        font-weight: 500;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid #ffffff;
+    }
+
+    .campo {
+        margin-top: 10px;
+        padding: 10px 15px;
+        margin-left: 100px;
+    }
+
+    .barras-formulario input {
+        padding: 5px 35px;
+    }
+
+    .barras-formulario .cajita-nombre {
+        padding: 25px;
+    }
+
+    /* ******footer******* */
+    footer {
+        margin: 0 auto;
+        max-width: 364px;
+        background: url(/imagenes/fonfo-footer.png) no-repeat;
+        /* height: 200px; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .content-footer .logo-footer {
+        height: 70px;
+        width: 70px;
+    }
+
+    .content-footer ul li {
+        font-size: 12px;
+        margin: 0 25px;
+    }
+
+    .social-icons {
+        font-size: 15px;
+    }
+
+    .social-icons .social-icon {
+        color: #fff;
+        width: 12px;
+        height: 12px;
+    }
+
+}
+
+/*********************************************** Media @media(max-width:767px)***********************************/
+
+@media(max-width:767px){
+
+    .container .menu{
+        padding: 5px;
+    }
+    
+        .container #menu-hamburguesa{
+            width: 50px;
+            height: 50px;
+        }
+    
+        .logo img{
+            width: 80px;
+            height: 80px;
+        }
+    
+        .container .menu{
+        display: flex;
+        justify-content: space-between;
+        }  
+    
+        .content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            width: 100vw;
+        }
+    
+        .content .nombre-carrera {
+            font-size: 3rem;
+        }
+    
+        .content .letras-blancas {
+            font-size: 1.3rem;
+        }
+    
+        .boton-inicio {
+            margin-left: 0 auto;
+            font-size: 15px;
+            padding: 8px 35px;
+        }
+    
+        #parrafo-derecho {
+            display: none;
+        }
+
+        .contenido-ladoizquierdo{
+            margin-top: 100px;
+        }
+        /* *******Media Sobre Nossotros******** */
+
+        .seccion-1{
+            display: flex;
+            justify-content: center;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+        .seccion-1 img {
+            display: none;
+        }
+    
+        .seccion-1 p {
+            font-size: 1.1rem;
+    
+        }
+    
+        /******* seccion-patrocinadores******* */
+        .seccion-patrocinadores {
+            padding: 25px;
+        }
+    
+        .seccion-patrocinadores h2 {
+            font-size: 1rem;
+        }
+    
+        .logo-bikes {
+            margin: 10px 5px;
+        }
+    
+        .logo-toyota {
+            margin: 0;
+        }
+    
+        .logo-final #tama-sardina {
+            margin: 10px 5px;
+        }
+    
+        .logos-tarrazu #contenido-tarrazu {
+            width: 60px;
+        }
+    
+        .logos-tarrazu #contenido-coopesantos {
+            width: 70px;
+        }
+    
+        .logos-tarrazu #contenido-bcr {
+            width: 70px;
+        }
+    
+        .logo-solo #contenido-station {
+            width: 60px;
+        }
+    
+        .logo-final #contenido-toyota {
+            width: 60px;
+        }
+    
+        .logo-final #contenido-sardina {
+            width: 60px;
+        }
+    
+        .logo-final #contenido-power {
+            width: 60px;
+        }
+    
+        /* final patrocinadores */
+        /* inicio Rutas*/
+        .rutas {
+            width: 364px;
+            height: 700px;
+            padding: 20px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    
+        .rutas h2 {
+            font-size: 2rem;
+        }
+    
+        .contenido-rutas h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+    
+        .btn-inscrip {
+            font-size: 10px;
+            background: #000;
+            border-radius: 10px;
+            padding: 8px 55px;
+            border: 2px solid rgb(118, 171, 174);
+            margin: 30px;
+        }
+    
+        .btn-inscrip:hover {
+            color: #000;
+            font-weight: 500;
+            background-color: rgb(118, 171, 174);
+            border: 2px solid #000;
+        }
+    
+        .rutas .contenido-rutas {
+            padding-top: 25px;
+            flex-direction: column;
+        }
+    
+        .titulo-ruta {
+            font-size: 2rem;
+        }
+    
+        .subtitulo-ruta {
+            font-size: 2rem;
+        }
+    
+        .ruta-1 #ruta-numero1 {
+            width: 200px;
+            height: 100px;
+        }
+    
+        .ruta-1 #ruta-numero1abajo {
+            width: 200px;
+            height: 30px;
+        }
+    
+        .ruta-2 .img_ruta_2 {
+            width: 200px;
+            height: 100px;
+        }
+    
+        .ruta-2 #ruta-numero2abajo {
+            width: 200px;
+            height: 30px;
+        }
+    
+        /* camisas */
+        .contenido-camisetas {
+            background: -webkit-linear-gradient(90deg, #76abae, #314748);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(90deg, #76abae, #314748);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            max-width: 364px;
+            padding: 20px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .contenido-camisetas .camisetas {
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .contenido-camisetas img {
+            width: 200px;
+        }
+    
+        .contenido-camisetas p {
+            font-size: 1rem;
+        }
+    
+        /* ***********Premios********* */
+        .titulo-premio {
+            font-family: "Oswald", sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    
+        .premios-1 h3 {
+            font-size: 1.7rem;
+        }
+    
+        .premios-1 h4 {
+            font-size: 1rem;
+        }
+    
+        /* ********Galería******* */
+        .contenido-galeria {
+            max-width: 364px;
+            text-align: center;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .contenido-galeria .contenido-imgs {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+    
+        .contenido-galeria h2 {
+            font-size: 1.5rem;
+        }
+    
+        .contenido-galeria img {
+            width: 200px;
+        }
+    
+        .img-1 img {
+            width: 100px;
+        }
+    
+        .img-2 img {
+            width: 100px;
+        }
+    
+        .img-3 img {
+            width: 100px;
+        }
+    
+        /* Eventos */
+        .container-eventos .card {
+            height: 300px;
+        }
+
+        .container-eventos h2{
+            display: none;
+        }
+
+        /* Formulario */
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            max-width: 365px;
+            padding: 5px;
+        }
+
+        .btn-form{
+            display: flex;
+            flex-direction: initial;
+        }
+        .formulario .barras-formulario {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        input {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            width: 60%;
+        }
+    
+        .formulario h2 {
+            text-align: center;
+            margin: 0 auto;
+        }
+    
+        .formulario .btn-form {
+            font-family: "Roboto", sans-serif;
+            font-size: 10px;
+            color: rgb(0, 0, 0);
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 8px 25px;
+            display: flex;
+            justify-content: center;
+            border: 2px solid rgb(0, 0, 0);
+            margin: 0 auto;
+            left: 10%;
+            margin: 10px 0 0 50px;
+            text-align: center;
+        }
+    
+        #btn-enviar .btn-form {
+            padding: 5px 5px;
+        }
+    
+        .formulario .btn-form:hover {
+            color: #ffffff;
+            font-weight: 500;
+            background-color: rgb(0, 0, 0);
+            border: 2px solid #ffffff;
+        }
+    
+        .campo {
+            margin-top: 10px;
+            padding: 10px 15px;
+            margin-left: 100px;
+        }
+    
+        .barras-formulario input {
+            padding: 5px 35px;
+        }
+    
+        .barras-formulario .cajita-nombre {
+            padding: 25px;
+        }
+    
+        /* ******footer******* */
+        footer {
+            margin: 0 auto;
+            max-width: 364px;
+            background: url(/imagenes/fonfo-footer.png) no-repeat;
+            /* height: 200px; */
+            display: flex;
+            justify-content: center;
+        }
+    
+        .content-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+        }
+    
+        .content-footer .logo-footer {
+            height: 70px;
+            width: 70px;
+        }
+    
+        .content-footer ul li {
+            font-size: 12px;
+            margin: 0 25px;
+        }
+    
+        .social-icons {
+            font-size: 15px;
+        }
+    
+        .social-icons .social-icon {
+            color: #fff;
+            width: 12px;
+            height: 12px;
+        }
+}
